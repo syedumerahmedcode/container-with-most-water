@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) throws Exception {
         /**
@@ -13,5 +15,10 @@ public class App {
          * Notice that you may not slant the container.
          */
         System.out.println("Hello, World!");
+        int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+        Solution solution = new Solution();
+        int maxAmountOfWaterAContainerCanStore = solution.maxArea(height);
+        System.out.println("The given heights are:" + Arrays.toString(height)
+                + " and the maximum amount of Water a container can store is:" + maxAmountOfWaterAContainerCanStore);
     }
 }
