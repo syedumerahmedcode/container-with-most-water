@@ -10,7 +10,7 @@ public class App {
          * 
          * Return the maximum amount of water a container can store.
          * 
-         * Notice that you may ot slant the container.
+         * Notice that you may not slant the container.
          */
         System.out.println("Hello, World!");
     }
